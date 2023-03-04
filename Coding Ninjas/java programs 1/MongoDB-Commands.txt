@@ -1,0 +1,23 @@
+show dbs -> All databases
+
+db -> current database
+
+show collections -> All collections in database
+
+use databaseName -> To select database
+
+db.createCollection("Name of database") -> To create collection in current database
+
+db.dropDatabase() -> To delete database
+
+db.databaseName.insert(object / array of objects) 
+
+db.databaseName.find()
+
+db.databaseName.remove(object)
+
+db.databaseName.insertOne(object)
+
+db.database.insertMany(Array of objects)
+
+DBQuery.shellBatchSize = x
